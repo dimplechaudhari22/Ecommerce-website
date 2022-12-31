@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/vendor_login.css">
+    <script defer src="../scripts/script.js"></script>
+    <title>Vendor Login Page</title>
+</head>
+
+<body>
+    <h2>Login</h2>
+    <div id="err-msg-holder">
+        <p id="err-msg">Invalid username <span id="sec-line">and/or password</span></p>
+    </div>
+    <div class="login">
+        <form id="login">
+            <label>Mail Id</label><br>
+            <input type="text" name="mailId" id="mailId" placeholder="Enter Mail-Id"><br><br><br>
+            <label>Password</label><br>
+            <input type="Password" name="Pass" id="Pass" placeholder="Enter Password"><br><br><br><br>
+            <input type="button" name="log" id="log" value="Login">
+            <a href="./vendor_register_page.html"><input type="button" name="reg" id="reg" value="New Shopkeeper Register"></a><br><br><br><br>
+            <input type="checkbox" id="check"><span>Remember Me</span><br><br><a href="#" class="forget-pass">Forgot Password</a>
+        </form>
+    </div>
+</body>
+
+</html>

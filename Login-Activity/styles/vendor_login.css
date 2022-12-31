@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: 'Arial';
+}
+
+#err-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#err-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+
+#sec-line {
+    display: block;
+}
+
+.login {
+    width: 375px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 25px;
+    background: #651170;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #651170;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+label {
+    color: #e9b3f0;
+    font-size: 17px;
+}
+
+#mailId {
+    margin-top: 8px;
+    width: 360px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pass {
+    margin-top: 8px;
+    width: 360px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: #651170;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+a,
+#reg {
+    width: 210px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: #651170;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+.forget-pass {
+    float: left;
+    color: yellow;
+    margin-right: 43%;
+    font-size: 11px;
+    font-family: Arial;
+}
